@@ -1,5 +1,11 @@
 [
   {
+    "uuid": "6fd1680c-21ec-38d0-892f-5ef5cc47806d",
+    "name": "Greasepencil",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "ed75c339-fab8-3531-b7d9-bca7e9226944",
     "name": "iJustGhost",
     "level": 4,
