@@ -3,7 +3,7 @@
 # ⚠️ STOP THE SERVER THROUGH THE COMMANDLINE BY TYPING "stop" FOR AUTOMATIC SAVE AND PUSH TO REPO! ⚠️
 
 ## Requirements
-* Github CLI
+* [Github CLI](https://cli.github.com/)
 * [Git](https://git-scm.com/downloads)
 * Java (**IF YOU DON'T HAVE ONE, ATLEAST VERSION 21 AND PICK ONLY ONE**)
   * [Liberica](https://bell-sw.com/pages/downloads/#jdk-21-lts) (Recommended)
