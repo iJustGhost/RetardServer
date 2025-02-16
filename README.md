@@ -11,14 +11,14 @@
 ## How to host?
 Windows:
 ```powershell
-    git clone
+    git clone https://github.com/iJustGhost/RetardServer.git
     cd RetardServer
     start-windows.bat
 ```
 
 Linux:
 ```bash
-    git clone
+    git clone https://github.com/iJustGhost/RetardServer.git
     cd RetardServer
     ./start-linux.sh
 ```
