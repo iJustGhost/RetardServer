@@ -1,11 +1,20 @@
 #!/bin/bash
+
+git pull
+
 if test -f ./lock; then
     echo "Someone else is running the server! Exiting..."
     exit
 fi
 
-git pull
-java -jar paper.jar -nogui
+touch lock
 git add .
-git commit -m "[SERVER SAVED]"
+git commit -m "[SERVER STARTED]"
+git push
+
+java -jar paper.jar -nogui
+
+rm lock
+git add .
+git commit -m "[SERVER STOPPED]"
 git push
