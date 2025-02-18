@@ -1,4 +1,9 @@
 #!/bin/bash
+if test -f ./lock; then
+    echo "Someone else is running the server! Exiting..."
+    exit
+fi
+
 git pull
 java -jar paper.jar -nogui
 git add .
