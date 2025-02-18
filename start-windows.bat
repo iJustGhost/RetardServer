@@ -1,3 +1,4 @@
+@echo off
 git pull
 
 if exist lock (
@@ -5,7 +6,7 @@ if exist lock (
     exit
 )
 
-echo. "">lock
+echo NUL>lock
 git add .
 git commit -m "[SERVER STARTED]"
 git push
