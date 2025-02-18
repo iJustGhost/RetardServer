@@ -1,125 +1,194 @@
-[20:58:30] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+10-LTS; BellSoft null) on Windows 11 10.0 (amd64)
-[20:58:30] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-152-main@4041678 (2025-02-15T22:36:39Z) for Minecraft 1.21.4
-[20:58:31] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[20:58:32] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
-[20:58:32] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[22:29:03] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+10-LTS; BellSoft null) on Linux 6.13.2-2-cachyos (amd64)
+[22:29:03] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-152-main@4041678 (2025-02-15T22:36:39Z) for Minecraft 1.21.4
+[22:29:04] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[22:29:04] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
+[22:29:04] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - LibreLogin (0.24.0)
-[20:58:32] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+[22:29:04] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
  - FreedomChat (1.7.2)
-[20:58:38] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[20:58:42] [ServerMain/INFO]: Loaded 1376 recipes
-[20:58:42] [ServerMain/INFO]: Loaded 1534 advancements
-[20:58:42] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[20:58:43] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 278.9ms
-[20:58:43] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[20:58:43] [Server thread/INFO]: Loading properties
-[20:58:43] [Server thread/INFO]: This server is running Paper version 1.21.4-152-main@4041678 (2025-02-15T22:36:39Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
-[20:58:43] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[20:58:43] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[20:58:43] [Server thread/INFO]: Using 4 threads for Netty based IO
-[20:58:44] [Server thread/INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
-[20:58:44] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[20:58:44] [Server thread/INFO]: Default game type: SURVIVAL
-[20:58:44] [Server thread/INFO]: Generating keypair
-[20:58:44] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:58:44] [Server thread/INFO]: Using default channel type
-[20:58:44] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[20:58:44] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[20:58:44] [Server thread/INFO]: [LibreLogin] Loading server plugin LibreLogin v0.24.0
-[20:58:44] [Server thread/INFO]: [LibreLogin] Analyzing server setup...
-[20:58:44] [Server thread/INFO]: [LibreLogin] Detected Adventure-compatible server distribution - Paper 1.21.4-152-4041678 (MC: 1.21.4)
-[20:58:44] [Server thread/INFO]: [LibreLogin] Loading libraries...
-[20:58:47] [Server thread/INFO]: [FreedomChat] Loading server plugin FreedomChat v1.7.2
-[20:58:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:58:47] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:58:47] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:58:47] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:58:47] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:58:47] [Server thread/INFO]: Preparing level "world"
-[20:58:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:58:49] [Server thread/INFO]: Preparing spawn area: 0%
-[20:58:49] [Server thread/INFO]: Preparing spawn area: 2%
-[20:58:49] [Server thread/INFO]: Time elapsed: 871 ms
-[20:58:49] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[20:58:49] [Server thread/INFO]: Preparing spawn area: 0%
-[20:58:49] [Server thread/INFO]: Time elapsed: 206 ms
-[20:58:49] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[20:58:49] [Server thread/INFO]: Preparing spawn area: 0%
-[20:58:49] [Server thread/INFO]: Time elapsed: 80 ms
-[20:58:49] [Server thread/INFO]: [LibreLogin] Enabling LibreLogin v0.24.0
-[20:58:49] [Server thread/INFO]: [LibreLogin] Bootstrapping LibreLogin...
-[20:58:50] [Server thread/INFO]: [LibreLogin] Loading messages...
-[20:58:50] [Server thread/INFO]: [LibreLogin] Loading configuration...
-[20:58:50] [Server thread/INFO]: [LibreLogin] Loading forbidden passwords...
-[20:58:51] [Server thread/INFO]: [LibreLogin] Loaded 984904 forbidden passwords
-[20:58:51] [Server thread/INFO]: [LibreLogin] Connecting to the database...
-[20:58:51] [Server thread/WARN]: [xyz.kyngs.librelogin.lib.hikari.HikariConfig] LibreLogin SQLite Pool - keepaliveTime is greater than or equal to maxLifetime, disabling it.
-[20:58:51] [Server thread/INFO]: [xyz.kyngs.librelogin.lib.hikari.HikariDataSource] LibreLogin SQLite Pool - Starting...
-[20:58:51] [Server thread/INFO]: [xyz.kyngs.librelogin.lib.hikari.pool.HikariPool] LibreLogin SQLite Pool - Added connection org.sqlite.jdbc4.JDBC4Connection@5f7288ad
-[20:58:51] [Server thread/INFO]: [xyz.kyngs.librelogin.lib.hikari.HikariDataSource] LibreLogin SQLite Pool - Start completed.
-[20:58:51] [Server thread/INFO]: [LibreLogin] Successfully connected to the database
-[20:58:51] [Server thread/INFO]: [LibreLogin] Validating schema
-[20:58:51] [Server thread/INFO]: [LibreLogin] Schema validated
-[20:58:51] [Server thread/INFO]: [LibreLogin] Found world file for limbo, loading...
-[20:58:51] [Server thread/INFO]: Preparing start region for dimension minecraft:limbo
-[20:58:51] [Server thread/INFO]: Preparing spawn area: 0%
-[20:58:51] [Server thread/INFO]: Time elapsed: 62 ms
-[20:58:51] [Server thread/INFO]: [LibreLogin] [ACF] Enabled Asynchronous Tab Completion Support!
-[20:58:51] [Server thread/INFO]: [FreedomChat] Enabling FreedomChat v1.7.2
-[20:58:52] [Server thread/INFO]: [spark] Starting background profiler...
-[20:58:52] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[20:58:52] [Server thread/INFO]: Done preparing level "world" (4.493s)
-[20:58:52] [Server thread/INFO]: Running delayed init tasks
-[20:58:52] [Server thread/INFO]: Done (23.011s)! For help, type "help"
-[20:58:53] [Craft Scheduler Thread - 3 - LibreLogin/INFO]: [LibreLogin] Checking for updates...
-[20:58:54] [Craft Scheduler Thread - 3 - LibreLogin/INFO]: [LibreLogin] You are running the latest version of LibreLogin
-[21:39:12] [User Authenticator #0/INFO]: UUID of player Courier1 is f8c6fade-51ac-3587-a99b-fa2d1693d783
-[21:39:14] [Server thread/INFO]: Courier1 joined the game
-[21:39:14] [Server thread/INFO]: Courier1[/172.23.92.215:61459] logged in with entity id 27 at ([limbo]0.0, 70.0, 0.0)
-[21:40:02] [Server thread/INFO]: Courier1 lost connection: Disconnected
-[21:40:02] [Server thread/INFO]: Courier1 left the game
-[21:40:18] [Server thread/INFO]: Stopping the server
-[21:40:18] [Server thread/INFO]: Stopping server
-[21:40:18] [Server thread/INFO]: [FreedomChat] Disabling FreedomChat v1.7.2
-[21:40:18] [Server thread/INFO]: [LibreLogin] Disabling LibreLogin v0.24.0
-[21:40:18] [Server thread/INFO]: [xyz.kyngs.librelogin.lib.hikari.HikariDataSource] LibreLogin SQLite Pool - Shutdown initiated...
-[21:40:18] [Server thread/INFO]: [xyz.kyngs.librelogin.lib.hikari.HikariDataSource] LibreLogin SQLite Pool - Shutdown completed.
-[21:40:18] [Server thread/INFO]: Saving players
-[21:40:18] [Server thread/INFO]: Saving worlds
-[21:40:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[21:40:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[21:40:18] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[21:40:18] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[21:40:18] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 8 entity chunks, 0 poi chunks in world 'world' in 0.06s
-[21:40:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[21:40:18] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[21:40:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[21:40:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[21:40:18] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[21:40:18] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[21:40:18] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 3 entity chunks, 0 poi chunks in world 'world_nether' in 0.04s
-[21:40:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[21:40:18] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[21:40:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[21:40:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[21:40:18] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[21:40:18] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[21:40:18] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[21:40:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[21:40:18] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[21:40:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[limbo]'/minecraft:limbo
-[21:40:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'limbo'
-[21:40:19] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'limbo'
-[21:40:19] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'limbo'
-[21:40:19] [Server thread/INFO]: [ChunkHolderManager] Saved 389 block chunks, 389 entity chunks, 0 poi chunks in world 'limbo' in 0.17s
-[21:40:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'limbo'
-[21:40:19] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'limbo'
-[21:40:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[21:40:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:40:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:40:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (limbo): All chunks are saved
-[21:40:19] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[21:40:19] [Server thread/INFO]: Waiting for I/O tasks to complete...
-[21:40:19] [Server thread/INFO]: All I/O tasks to complete
-[21:40:19] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[21:40:19] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[22:29:07] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[22:29:10] [ServerMain/INFO]: Loaded 1376 recipes
+[22:29:10] [ServerMain/INFO]: Loaded 1534 advancements
+[22:29:10] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[22:29:10] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 168.1ms
+[22:29:10] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[22:29:10] [Server thread/INFO]: Loading properties
+[22:29:10] [Server thread/INFO]: This server is running Paper version 1.21.4-152-main@4041678 (2025-02-15T22:36:39Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[22:29:10] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[22:29:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:29:10] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:29:10] [Server thread/INFO]: [MoonriseCommon] Paper is using 3 worker threads, 1 I/O threads
+[22:29:10] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[22:29:11] [Server thread/INFO]: Default game type: SURVIVAL
+[22:29:11] [Server thread/INFO]: Generating keypair
+[22:29:11] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:29:11] [Server thread/INFO]: Using epoll channel type
+[22:29:11] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[22:29:11] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[22:29:11] [Server thread/INFO]: [FreedomChat] Loading server plugin FreedomChat v1.7.2
+[22:29:11] [Server thread/INFO]: [LibreLogin] Loading server plugin LibreLogin v0.24.0
+[22:29:11] [Server thread/INFO]: [LibreLogin] Analyzing server setup...
+[22:29:11] [Server thread/INFO]: [LibreLogin] Detected Adventure-compatible server distribution - Paper 1.21.4-152-4041678 (MC: 1.21.4)
+[22:29:11] [Server thread/INFO]: [LibreLogin] Loading libraries...
+[22:29:13] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:29:13] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:29:13] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:29:13] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:29:13] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:29:13] [Server thread/INFO]: Preparing level "world"
+[22:29:15] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:29:15] [Server thread/INFO]: Preparing spawn area: 0%
+[22:29:15] [Server thread/INFO]: Preparing spawn area: 22%
+[22:29:15] [Server thread/INFO]: Time elapsed: 527 ms
+[22:29:15] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[22:29:15] [Server thread/INFO]: Preparing spawn area: 0%
+[22:29:15] [Server thread/INFO]: Time elapsed: 130 ms
+[22:29:15] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[22:29:15] [Server thread/INFO]: Preparing spawn area: 0%
+[22:29:15] [Server thread/INFO]: Time elapsed: 50 ms
+[22:29:15] [Server thread/INFO]: [FreedomChat] Enabling FreedomChat v1.7.2
+[22:29:15] [Server thread/INFO]: [LibreLogin] Enabling LibreLogin v0.24.0
+[22:29:15] [Server thread/INFO]: [LibreLogin] Bootstrapping LibreLogin...
+[22:29:16] [Server thread/INFO]: [LibreLogin] Loading messages...
+[22:29:16] [Server thread/INFO]: [LibreLogin] Loading configuration...
+[22:29:16] [Server thread/INFO]: [LibreLogin] Loading forbidden passwords...
+[22:29:16] [Server thread/INFO]: [LibreLogin] Loaded 984904 forbidden passwords
+[22:29:16] [Server thread/INFO]: [LibreLogin] Connecting to the database...
+[22:29:16] [Server thread/WARN]: [xyz.kyngs.librelogin.lib.hikari.HikariConfig] LibreLogin SQLite Pool - keepaliveTime is greater than or equal to maxLifetime, disabling it.
+[22:29:16] [Server thread/INFO]: [xyz.kyngs.librelogin.lib.hikari.HikariDataSource] LibreLogin SQLite Pool - Starting...
+[22:29:16] [Server thread/INFO]: [xyz.kyngs.librelogin.lib.hikari.pool.HikariPool] LibreLogin SQLite Pool - Added connection org.sqlite.jdbc4.JDBC4Connection@2b238e9
+[22:29:16] [Server thread/INFO]: [xyz.kyngs.librelogin.lib.hikari.HikariDataSource] LibreLogin SQLite Pool - Start completed.
+[22:29:16] [Server thread/INFO]: [LibreLogin] Successfully connected to the database
+[22:29:16] [Server thread/INFO]: [LibreLogin] Validating schema
+[22:29:16] [Server thread/INFO]: [LibreLogin] Schema validated
+[22:29:16] [Server thread/INFO]: [LibreLogin] Found world file for limbo, loading...
+[22:29:17] [Server thread/INFO]: Preparing start region for dimension minecraft:limbo
+[22:29:17] [Server thread/INFO]: Preparing spawn area: 0%
+[22:29:17] [Server thread/INFO]: Time elapsed: 35 ms
+[22:29:17] [Server thread/INFO]: [LibreLogin] [ACF] Enabled Asynchronous Tab Completion Support!
+[22:29:17] [Server thread/INFO]: [spark] Starting background profiler...
+[22:29:17] [Server thread/INFO]: Done preparing level "world" (3.685s)
+[22:29:17] [Server thread/INFO]: Running delayed init tasks
+[22:29:17] [Server thread/INFO]: Done (14.292s)! For help, type "help"
+[22:29:18] [Craft Scheduler Thread - 2 - LibreLogin/INFO]: [LibreLogin] Checking for updates...
+[22:29:18] [Craft Scheduler Thread - 2 - LibreLogin/INFO]: [LibreLogin] You are running the latest version of LibreLogin
+[22:29:24] [User Authenticator #0/INFO]: UUID of player iJustGhost is ed75c339-fab8-3531-b7d9-bca7e9226944
+[22:29:26] [Server thread/INFO]: iJustGhost joined the game
+[22:29:26] [Server thread/INFO]: iJustGhost[/127.0.0.1:39124] logged in with entity id 27 at ([limbo]0.0, 70.0, 0.0)
+[22:38:57] [User Authenticator #1/INFO]: UUID of player Courier1 is f8c6fade-51ac-3587-a99b-fa2d1693d783
+[22:38:58] [Server thread/INFO]: Courier1 joined the game
+[22:38:58] [Server thread/INFO]: Courier1[/172.23.92.215:64611] logged in with entity id 425 at ([limbo]0.0, 70.0, 0.0)
+[22:39:10] [Async Chat Thread - #0/INFO]: [Not Secure] <Courier1> gay sex 202
+[22:39:13] [Async Chat Thread - #0/INFO]: [Not Secure] <Courier1> oh shit
+[22:39:21] [Async Chat Thread - #0/INFO]: [Not Secure] <iJustGhost> try mo nga start yung server
+[22:39:25] [Async Chat Thread - #0/INFO]: [Not Secure] <Courier1> pre historic gay sex
+[22:39:28] [Async Chat Thread - #0/INFO]: [Not Secure] <iJustGhost> pota
+[22:39:30] [Async Chat Thread - #0/INFO]: [Not Secure] <Courier1> aye aye
+[22:39:33] [Async Chat Thread - #0/INFO]: [Not Secure] <Courier1> HJGDSAHGSDADSAHJGDSAHGHJSDA
+[22:39:36] [Async Chat Thread - #0/INFO]: [Not Secure] <iJustGhost> sabihin mo pag nag fail
+[22:39:42] [Server thread/INFO]: Courier1 lost connection: Disconnected
+[22:39:42] [Server thread/INFO]: Courier1 left the game
+[22:41:49] [User Authenticator #2/INFO]: UUID of player Courier1 is f8c6fade-51ac-3587-a99b-fa2d1693d783
+[22:41:49] [Server thread/INFO]: Courier1 joined the game
+[22:41:49] [Server thread/INFO]: Courier1[/172.23.92.215:64795] logged in with entity id 480 at ([limbo]0.0, 70.0, 0.0)
+[22:41:58] [Async Chat Thread - #2/INFO]: [Not Secure] <Courier1> h e l l o
+[22:42:06] [Async Chat Thread - #2/INFO]: [Not Secure] <Courier1> nag close cmd
+[22:42:08] [Async Chat Thread - #2/INFO]: [Not Secure] <iJustGhost> nag start yung server sayo?
+[22:42:11] [Async Chat Thread - #2/INFO]: [Not Secure] <iJustGhost> YOWN
+[22:42:15] [Async Chat Thread - #2/INFO]: [Not Secure] <iJustGhost> gumagana yung lock
+[22:42:17] [Async Chat Thread - #2/INFO]: [Not Secure] <Courier1> anw
+[22:42:30] [Async Chat Thread - #2/INFO]: [Not Secure] <Courier1> Gay Sex 2025
+[22:42:41] [Async Chat Thread - #2/INFO]: [Not Secure] <iJustGhost> tang ina puro ka ganyian
+[22:42:47] [Async Chat Thread - #2/INFO]: [Not Secure] <Courier1> aus b
+[22:42:48] [Async Chat Thread - #2/INFO]: [Not Secure] <iJustGhost> tingin ko fetish mo yan
+[22:42:53] [Async Chat Thread - #2/INFO]: [Not Secure] <Courier1> malay mo
+[22:42:55] [Async Chat Thread - #2/INFO]: [Not Secure] <Courier1> oh shit
+[22:42:58] [Async Chat Thread - #2/INFO]: [Not Secure] <Courier1> ohno
+[22:43:03] [Async Chat Thread - #2/INFO]: [Not Secure] <iJustGhost> saan ka??
+[22:43:12] [Async Chat Thread - #2/INFO]: [Not Secure] <Courier1> village of wisdom'
+[22:43:20] [Async Chat Thread - #2/INFO]: [Not Secure] <Courier1> nasa castle tower ako
+[22:43:45] [Server thread/INFO]: [iJustGhost: The difficulty has been set to Easy]
+[22:45:08] [Async Chat Thread - #4/INFO]: [Not Secure] <iJustGhost> wtf
+[22:45:13] [Async Chat Thread - #4/INFO]: [Not Secure] <Courier1> ah man
+[22:45:50] [Async Chat Thread - #4/INFO]: [Not Secure] <iJustGhost> fucking al qaeda
+[22:45:53] [Async Chat Thread - #4/INFO]: [Not Secure] <Courier1> HGSAHSAHSAHSAHSAHSA
+[22:45:59] [Async Chat Thread - #4/INFO]: [Not Secure] <Courier1> gusto mo kwento
+[22:47:00] [Async Chat Thread - #6/INFO]: [Not Secure] <iJustGhost> sali mo pinsan mo
+[22:47:01] [Async Chat Thread - #6/INFO]: [Not Secure] <Courier1> taina
+[22:47:06] [Async Chat Thread - #6/INFO]: [Not Secure] <Courier1> kaya pala nagfflicker
+[22:47:13] [Async Chat Thread - #6/INFO]: [Not Secure] <Courier1> NAKA ON PALA VSYNC
+[22:47:37] [Server thread/INFO]: Courier1 has made the advancement [Take Aim]
+[22:49:54] [Server thread/INFO]: iJustGhost has made the advancement [Not Today, Thank You]
+[22:50:24] [Server thread/INFO]: Villager Villager['Nitwit'/75, uuid='bf5d47d2-7430-47d4-824c-b8a92aa0f2b5', l='ServerLevel[world]', x=809.35, y=128.00, z=63.70, cpos=[50, 3], tl=120793, v=true] died, message: 'Nitwit was slain by Zombie'
+[22:51:27] [Async Chat Thread - #8/INFO]: [Not Secure] <Courier1> pakshet
+[22:51:52] [Async Chat Thread - #8/INFO]: [Not Secure] <Courier1> need zero tier para makasali dito diba
+[22:51:57] [Async Chat Thread - #8/INFO]: [Not Secure] <Courier1> answer or gei
+[22:51:58] [Async Chat Thread - #8/INFO]: [Not Secure] <iJustGhost> yeh
+[22:54:10] [Server thread/INFO]: [iJustGhost: Killed 29 entities]
+[22:54:12] [Server thread/INFO]: [iJustGhost: Killed 3 entities]
+[22:54:12] [Server thread/INFO]: [iJustGhost: Killed 4 entities]
+[22:54:16] [Server thread/INFO]: [iJustGhost: Killed Creeper]
+[22:54:18] [Server thread/INFO]: [iJustGhost: Killed Creeper]
+[22:54:22] [Async Chat Thread - #10/INFO]: [Not Secure] <Courier1> dam bro chill
+[22:54:24] [Async Chat Thread - #10/INFO]: [Not Secure] <iJustGhost> FUCKING TERRORISTTT
+[22:54:27] [Async Chat Thread - #10/INFO]: [Not Secure] <iJustGhost> FUCKING TERRORISTTT
+[22:54:28] [Server thread/INFO]: [iJustGhost: Killed 2 entities]
+[22:54:30] [Server thread/INFO]: [iJustGhost: Killed Creeper]
+[22:55:11] [Server thread/INFO]: Courier1 lost connection: Disconnected
+[22:55:11] [Server thread/INFO]: Courier1 left the game
+[22:57:05] [Server thread/INFO]: iJustGhost issued server command: /give @p minecraft:dirt 64
+[22:57:05] [Server thread/INFO]: [iJustGhost: Gave 64 [Dirt] to iJustGhost]
+[23:15:08] [Server thread/INFO]: iJustGhost has made the advancement [Isn't It Iron Pick]
+[23:17:24] [Server thread/INFO]: Villager Villager['Cartographer'/159, uuid='c7410395-97cb-49f1-89a2-6a8d226aba6d', l='ServerLevel[world]', x=986.61, y=149.00, z=277.55, cpos=[61, 17], tl=106623, v=true] died, message: 'Cartographer hit the ground too hard'
+[23:21:04] [Server thread/INFO]: iJustGhost lost connection: Timed out
+[23:21:04] [Server thread/INFO]: iJustGhost left the game
+[23:23:07] [User Authenticator #3/INFO]: UUID of player iJustGhost is ed75c339-fab8-3531-b7d9-bca7e9226944
+[23:23:09] [Server thread/INFO]: iJustGhost joined the game
+[23:23:09] [Server thread/INFO]: iJustGhost[/127.0.0.1:38970] logged in with entity id 3775 at ([limbo]0.0, 70.0, 0.0)
+[23:29:46] [Server thread/INFO]: iJustGhost lost connection: Disconnected
+[23:29:46] [Server thread/INFO]: iJustGhost left the game
+[23:29:58] [Server thread/INFO]: Stopping the server
+[23:29:58] [Server thread/INFO]: Stopping server
+[23:29:58] [Server thread/INFO]: [LibreLogin] Disabling LibreLogin v0.24.0
+[23:29:58] [Server thread/INFO]: [xyz.kyngs.librelogin.lib.hikari.HikariDataSource] LibreLogin SQLite Pool - Shutdown initiated...
+[23:29:58] [Server thread/INFO]: [xyz.kyngs.librelogin.lib.hikari.HikariDataSource] LibreLogin SQLite Pool - Shutdown completed.
+[23:29:58] [Server thread/INFO]: [FreedomChat] Disabling FreedomChat v1.7.2
+[23:29:58] [Server thread/INFO]: Saving players
+[23:29:58] [Server thread/INFO]: Saving worlds
+[23:29:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:29:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[23:29:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[23:29:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[23:29:59] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 8 entity chunks, 0 poi chunks in world 'world' in 0.67s
+[23:29:59] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[23:29:59] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[23:30:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[23:30:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[23:30:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[23:30:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[23:30:00] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 3 entity chunks, 0 poi chunks in world 'world_nether' in 0.08s
+[23:30:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[23:30:00] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[23:30:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[23:30:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[23:30:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[23:30:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[23:30:00] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.10s
+[23:30:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[23:30:00] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[23:30:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[limbo]'/minecraft:limbo
+[23:30:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'limbo'
+[23:30:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'limbo'
+[23:30:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'limbo'
+[23:30:01] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'limbo' in 0.00s
+[23:30:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'limbo'
+[23:30:01] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'limbo'
+[23:30:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:30:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:30:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:30:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (limbo): All chunks are saved
+[23:30:01] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[23:30:01] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[23:30:01] [Server thread/INFO]: All I/O tasks to complete
+[23:30:01] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[23:30:01] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
